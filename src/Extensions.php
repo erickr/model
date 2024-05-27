@@ -52,6 +52,7 @@ final class Extensions implements \ArrayAccess
     /**
      * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         if (!$offset instanceof IRI) {
